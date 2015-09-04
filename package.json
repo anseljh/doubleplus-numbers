@@ -1,0 +1,21 @@
+{
+  "name": "doubleplus-numbers",
+  "description": "Common Form annotator to find and identify redundant and repeated number(s) and numeral(s)",
+  "version": "0.0.1",
+  "author": "Ansel Halliburton <github@anseljh.com> (http://anseljh.com)",
+  "bugs": "https://github.com/anseljh/doubleplus-numbers/issues",
+  "keywords": [
+    "annotation",
+    "contracts",
+    "document assembly",
+    "knowledge management",
+    "law"
+  ],
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "commonform-regexp-annotator": ">=1.0.3",
+    "numeral": "1.5.x",
+    "number-string-representation": "0.1.9"
+  },
+  "repository": "anseljh/doubleplus-numbers"
+}
