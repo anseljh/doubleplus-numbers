@@ -12,10 +12,19 @@
     "law"
   ],
   "license": "Apache-2.0",
-  "peerDependencies": {
-    "commonform-regexp-annotator": ">=1.0.3",
+  "dependencies": {
     "numeral": "1.5.x",
     "number-string-representation": "0.1.9"
   },
-  "repository": "anseljh/doubleplus-numbers"
+  "peerDependencies": {
+    "commonform-regexp-annotator": ">=1.0.3"
+  },
+  "devDependencies": {
+    "defence-cli": "~1.0.1",
+    "replace-require-self": "~1.0.0"
+  },
+  "repository": "anseljh/doubleplus-numbers",
+  "scripts": {
+      "test": "defence README.md | replace-require-self | node"
+    }
 }
