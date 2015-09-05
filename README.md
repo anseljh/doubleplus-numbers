@@ -2,6 +2,8 @@
 
 `doubleplus-numbers` provides a [Common Form](https://github.com/commonform) [annotator](https://github.com/commonform/commonform-annotations) to find and identify redundant and repeated number(s) and numeral(s).
 
+[![Build Status](https://travis-ci.org/anseljh/doubleplus-numbers.svg)](https://travis-ci.org/anseljh/doubleplus-numbers)
+
 ```javascript
 var assert = require('assert')
 var annotator = require('doubleplus-numbers')
