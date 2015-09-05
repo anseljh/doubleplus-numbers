@@ -14,7 +14,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "numeral": "1.5.x",
-    "number-string-representation": "0.1.9"
+    "number-string-representation": "0.1.9",
+    "array-range": ">=1.0"
   },
   "peerDependencies": {
     "commonform-regexp-annotator": ">=1.0.3"
