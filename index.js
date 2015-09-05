@@ -7,7 +7,7 @@ var expressions = [
   /five \(5\)/ ]
 
 function message(form, path, expression, match) {
-  var word = match[1]
+  var word = match[0]
   return {
     message: "'" + word + "' repeats a written number and numeral, which is redundant and error-prone'",
     level: "info",
