@@ -13,7 +13,7 @@ assert.deepEqual(
       path: [ 'content', 0 ],
       source: 'doubleplus-numbers',
       url: null },
-    { { message: '"four (4)" repeats a written number and numeral, which is redundant and error-prone',
+    { message: '"four (4)" repeats a written number and numeral, which is redundant and error-prone',
       level: "info",
       path: [ 'content', 0 ],
       source: 'doubleplus-numbers',
