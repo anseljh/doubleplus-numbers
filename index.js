@@ -9,7 +9,7 @@ var expressions = [
 function message(form, path, expression, match) {
   var word = match[0]
   return {
-    message: "'" + word + "' repeats a written number and numeral, which is redundant and error-prone'",
+    message: '"' + word + '" repeats a written number and numeral, which is redundant and error-prone',
     level: "info",
     path: path,
     source: 'doubleplus-numbers',
