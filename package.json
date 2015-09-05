@@ -1,7 +1,7 @@
 {
   "name": "doubleplus-numbers",
   "description": "Common Form annotator to find and identify redundant and repeated number(s) and numeral(s)",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "author": "Ansel Halliburton <github@anseljh.com> (http://anseljh.com)",
   "bugs": "https://github.com/anseljh/doubleplus-numbers/issues",
   "keywords": [
@@ -23,6 +23,6 @@
   },
   "repository": "anseljh/doubleplus-numbers",
   "scripts": {
-      "test": "defence README.md | replace-require-self | node"
-    }
+    "test": "defence README.md | replace-require-self | node"
+  }
 }
