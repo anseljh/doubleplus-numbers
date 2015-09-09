@@ -13,17 +13,19 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "array-range": ">=1.0",
-    "commonform-regexp-annotator": ">=1.0.3",
-    "escape-regexp": "0.0.1",
-    "number-string-representation": "0.1.9"
+    "commonform-regexp-annotator": "^1.0.3"
   },
   "devDependencies": {
-    "defence-cli": "~1.0.1",
-    "replace-require-self": "~1.0.0"
+    "array-range": "^1.0.0",
+    "defence-cli": "^1.0.1",
+    "escape-regexp": "^0.0.1",
+    "number-string-representation": "^0.1.9",
+    "replace-require-self": "^1.0.0"
   },
   "repository": "anseljh/doubleplus-numbers",
   "scripts": {
+    "prepublish": "node build.js > redundancies.json",
+    "pretest": "npm run prepublish",
     "test": "defence README.md | replace-require-self | node"
   }
 }
