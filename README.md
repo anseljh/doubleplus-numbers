@@ -9,13 +9,13 @@ var assert = require('assert')
 var annotator = require('doubleplus-numbers')
 
 assert.deepEqual(
-  annotator({ content: [ 'Give me two (2) of those and four (4) of the other one.' ] }),
+  annotator({ content: [ 'Give me two (2) of those. Four (4) of the other one, too.' ] }),
   [ { message: '"two (2)" repeats a written number and numeral, which is redundant and error-prone',
       level: "info",
       path: [ 'content', 0 ],
       source: 'doubleplus-numbers',
       url: null },
-    { message: '"four (4)" repeats a written number and numeral, which is redundant and error-prone',
+    { message: '"Four (4)" repeats a written number and numeral, which is redundant and error-prone',
       level: "info",
       path: [ 'content', 0 ],
       source: 'doubleplus-numbers',
