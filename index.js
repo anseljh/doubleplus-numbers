@@ -68,10 +68,7 @@ function getRedundancy(input) {
   return getNumberWords(input) + " (" + input + ")";
 }
 
-function escapeRegExp(str) {
-  // Source: http://stackoverflow.com/a/17326679
-  return String(str).replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
-}
+var escapeRegExp = require('escape-regexp')
 
 function makeRegExp(input) {
   // use this to map() onto an array of redundancies
