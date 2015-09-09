@@ -19,8 +19,8 @@ function getNumberWords(input) {
   /*
     Returns a string containing words for the numeral `input`
   */
-  dollarWords = numberStringRepresentation(input);
-  words = deDollarize(dollarWords);
+  var dollarWords = numberStringRepresentation(input);
+  var words = deDollarize(dollarWords);
   return words.toLowerCase();
 }
 
