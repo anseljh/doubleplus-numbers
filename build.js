@@ -36,4 +36,4 @@ var escapeRegExp = require('escape-regexp');
 var integerRange = range(1,RANGEMAX+1);
 var redundancies = integerRange.map(getRedundancy).map(escapeRegExp);
 
-console.log(JSON.stringify(redundancies, null, 2));
+process.stdout.write(JSON.stringify(redundancies, null, 2) + '\n');
