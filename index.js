@@ -1,5 +1,5 @@
 var expressions = require('./redundancies').map(function(element) {
-  return new RegExp(element);
+  return new RegExp(element, 'i');
 });
 
 function message(form, path, expression, match) {
